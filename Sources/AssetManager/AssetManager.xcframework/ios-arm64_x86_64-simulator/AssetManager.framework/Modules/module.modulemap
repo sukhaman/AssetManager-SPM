@@ -4,3 +4,8 @@ framework module AssetManager {
 
   module * { export * }
 }
+
+module AssetManager.Swift {
+  header "AssetManager-Swift.h"
+  requires objc
+}

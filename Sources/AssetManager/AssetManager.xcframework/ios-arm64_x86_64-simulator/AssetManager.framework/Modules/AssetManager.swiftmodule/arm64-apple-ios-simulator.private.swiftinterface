@@ -1,0 +1,323 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
+// swift-module-flags: -target arm64-apple-ios17.2-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AssetManager
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+@_exported import AssetManager
+import DeveloperToolsSupport
+import Foundation
+import Swift
+import SwiftUI
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@available(*, deprecated, renamed: "ColorAsset.Color", message: "This typealias will be removed in SwiftGen 7.0")
+public typealias AssetColorTypeAlias = AssetManager.ColorAsset.Color
+@available(*, deprecated, renamed: "ImageAsset.Image", message: "This typealias will be removed in SwiftGen 7.0")
+public typealias AssetImageTypeAlias = AssetManager.ImageAsset.Image
+public enum AssetManagerResources {
+  public enum Assets {
+    public enum Account {
+      public static let captcure: AssetManager.ImageAsset
+      public static let lock: AssetManager.ImageAsset
+      public static let logout: AssetManager.ImageAsset
+    }
+    public static let accountCircleFilled: AssetManager.ImageAsset
+    public static let addTo: AssetManager.ImageAsset
+    public static let addIcon: AssetManager.ImageAsset
+    public enum ChartsName {
+      public static let checkGreen: AssetManager.ImageAsset
+      public static let cobuyerChart: AssetManager.ImageAsset
+      public static let cobuyerSelChart: AssetManager.ImageAsset
+      public static let crossRed: AssetManager.ImageAsset
+      public static let dealChart: AssetManager.ImageAsset
+      public static let dealSelChart: AssetManager.ImageAsset
+      public static let documentChart: AssetManager.ImageAsset
+      public static let documentSelChart: AssetManager.ImageAsset
+      public static let formsChart: AssetManager.ImageAsset
+      public static let formsSelChart: AssetManager.ImageAsset
+      public static let idChart: AssetManager.ImageAsset
+      public static let idSelChart: AssetManager.ImageAsset
+      public static let infoChart: AssetManager.ImageAsset
+      public static let infoSelChart: AssetManager.ImageAsset
+      public static let purchaseChart: AssetManager.ImageAsset
+      public static let purchaseSelChart: AssetManager.ImageAsset
+      public static let tradeChart: AssetManager.ImageAsset
+      public static let tradeSelChart: AssetManager.ImageAsset
+    }
+    public static let checkbox: AssetManager.ImageAsset
+    public static let fileCheck: AssetManager.ImageAsset
+    public static let fileUpload: AssetManager.ImageAsset
+    public enum Files {
+      public static let addDoc: AssetManager.ImageAsset
+      public static let file: AssetManager.ImageAsset
+      public static let notes: AssetManager.ImageAsset
+      public static let signDoc: AssetManager.ImageAsset
+    }
+    public static let folder: AssetManager.ImageAsset
+    public enum Generics {
+      public static let addGray: AssetManager.ImageAsset
+      public static let addRoundGray: AssetManager.ImageAsset
+      public static let arrowDownBlue: AssetManager.ImageAsset
+      public static let arrowLeftBlack: AssetManager.ImageAsset
+      public static let arrowRight: AssetManager.ImageAsset
+      public static let checkmarkGreen: AssetManager.ImageAsset
+      public static let checkmarkRoundBlue: AssetManager.ImageAsset
+      public static let downCopy: AssetManager.ImageAsset
+      public static let unCheckbox: AssetManager.ImageAsset
+    }
+    public static let infoDocs: AssetManager.ImageAsset
+    public enum Kiosk {
+      public static let customerChat: AssetManager.ImageAsset
+      public static let logoBlue: AssetManager.ImageAsset
+      public static let scan: AssetManager.ImageAsset
+      public static let scanBack: AssetManager.ImageAsset
+      public static let scanFront: AssetManager.ImageAsset
+      public static let security: AssetManager.ImageAsset
+    }
+    public enum KioskIphone {
+      public static let getDoneIphone: AssetManager.ImageAsset
+      public static let guidenceIphone: AssetManager.ImageAsset
+      public static let scan: AssetManager.ImageAsset
+      public static let securityIphone: AssetManager.ImageAsset
+    }
+    public static let lockFilled: AssetManager.ImageAsset
+    public static let personFilled: AssetManager.ImageAsset
+    public static let phoneFilled: AssetManager.ImageAsset
+    public enum TabBar {
+      public static let addnew: AssetManager.ImageAsset
+      public static let customers: AssetManager.ImageAsset
+      public static let notification: AssetManager.ImageAsset
+    }
+    public static let userCardID: AssetManager.ImageAsset
+    public static let addCoBuyerIcon: AssetManager.ImageAsset
+    public static let addNew: AssetManager.ImageAsset
+    public static let addSignIcon: AssetManager.ImageAsset
+    public static let addressInformationIcon: AssetManager.ImageAsset
+    public static let appExperinceIcon: AssetManager.ImageAsset
+    public static let appIconBlack: AssetManager.ImageAsset
+    public static let appIconWhite: AssetManager.ImageAsset
+    public static let arrowUp: AssetManager.ImageAsset
+    public static let backArrow: AssetManager.ImageAsset
+    public static let backLicense: AssetManager.ImageAsset
+    public static let barChatIcon: AssetManager.ImageAsset
+    public static let bgWelcomeImage: AssetManager.ImageAsset
+    public static let chartClosingCompletedIcon: AssetManager.ImageAsset
+    public static let chartClosingIncompletedIcon: AssetManager.ImageAsset
+    public static let chartCobuyerCompletedIcon: AssetManager.ImageAsset
+    public static let chartCobuyerIncompletedIcon: AssetManager.ImageAsset
+    public static let chartDealCompletedIcon: AssetManager.ImageAsset
+    public static let chartDealIncompletedIcon: AssetManager.ImageAsset
+    public static let chartHardCreditCompletedIcon: AssetManager.ImageAsset
+    public static let chartHardCreditIncompletedIcon: AssetManager.ImageAsset
+    public static let chartIdCompletedIcon: AssetManager.ImageAsset
+    public static let chartIdIncompletedIcon: AssetManager.ImageAsset
+    public static let chartPrelimCompletedIcon: AssetManager.ImageAsset
+    public static let chartPrelimIncompletedIcon: AssetManager.ImageAsset
+    public static let chartPurchaseVehicleCompletedIcon: AssetManager.ImageAsset
+    public static let chartPurchaseVehicleIncompletedIcon: AssetManager.ImageAsset
+    public static let chartTradeVehicleCompletedIcon: AssetManager.ImageAsset
+    public static let chartTradeVehicleIncompletedIcon: AssetManager.ImageAsset
+    public static let checkedIcon: AssetManager.ImageAsset
+    public static let circleCheckmark: AssetManager.ImageAsset
+    public static let circleCheckmarkPhone: AssetManager.ImageAsset
+    public static let circlePlus: AssetManager.ImageAsset
+    public static let circlePlusPhone: AssetManager.ImageAsset
+    public static let clear: AssetManager.ImageAsset
+    public static let clearFill: AssetManager.ImageAsset
+    public static let closeBanner: AssetManager.ImageAsset
+    public static let closingFormIcon: AssetManager.ImageAsset
+    public static let closingFormsHeaderIcon: AssetManager.ImageAsset
+    public static let contantAckIcon: AssetManager.ImageAsset
+    public static let creditFormsHeaderIcon: AssetManager.ImageAsset
+    public static let creditFormsIcon: AssetManager.ImageAsset
+    public static let creditFormsIcon2: AssetManager.ImageAsset
+    public static let creditHeaderIcon: AssetManager.ImageAsset
+    public static let crossFile: AssetManager.ImageAsset
+    public static let crossWhite: AssetManager.ImageAsset
+    public static let darkTextIcon: AssetManager.ImageAsset
+    public static let dashboardLogo: AssetManager.ImageAsset
+    public static let documentIcon: AssetManager.ImageAsset
+    public static let doller: AssetManager.ImageAsset
+    public static let down: AssetManager.ImageAsset
+    public static let downIcon: AssetManager.ImageAsset
+    public static let driverLicense: AssetManager.ImageAsset
+    public static let driverLicenseHeaderIcon: AssetManager.ImageAsset
+    public static let driverLicenseIcon1: AssetManager.ImageAsset
+    public static let driverLicenseIcon: AssetManager.ImageAsset
+    public static let dropDownArrow: AssetManager.ImageAsset
+    public static let dropTextfieldArrow: AssetManager.ImageAsset
+    public static let employeeAccessIcon: AssetManager.ImageAsset
+    public static let employmentInfoIcon: AssetManager.ImageAsset
+    public static let emptySquareCheckIcon: AssetManager.ImageAsset
+    public static let exisitingClientIcon: AssetManager.ImageAsset
+    public static let filledFilter: AssetManager.ImageAsset
+    public static let filter: AssetManager.ImageAsset
+    public static let form: AssetManager.ImageAsset
+    public static let frontLicense: AssetManager.ImageAsset
+    public static let gearIcon: AssetManager.ImageAsset
+    public static let graniteSubaru: AssetManager.ImageAsset
+    public static let groupPeople: AssetManager.ImageAsset
+    public static let helpDeskIcon: AssetManager.ImageAsset
+    public static let hillsideLogo: AssetManager.ImageAsset
+    public static let id: AssetManager.ImageAsset
+    public static let idHeaderIcon: AssetManager.ImageAsset
+    public static let identificationDocumentIcon: AssetManager.ImageAsset
+    public static let identityTheftPrevention: AssetManager.ImageAsset
+    public static let imgCheck: AssetManager.ImageAsset
+    public static let insuranceCamera: AssetManager.ImageAsset
+    public static let insuranceCardHeaderIcon: AssetManager.ImageAsset
+    public static let insuranceCardIcon: AssetManager.ImageAsset
+    public static let insuranceHeaderIcon: AssetManager.ImageAsset
+    public static let insuranceIcon: AssetManager.ImageAsset
+    public static let languageAffirmationIcon: AssetManager.ImageAsset
+    public static let languageIcon: AssetManager.ImageAsset
+    public static let launchLogo: AssetManager.ImageAsset
+    public static let launchTextLogo: AssetManager.ImageAsset
+    public static let license: AssetManager.ImageAsset
+    public static let newApplicationFormIcon: AssetManager.ImageAsset
+    public static let newClientIcon: AssetManager.ImageAsset
+    public static let noData: AssetManager.ImageAsset
+    public static let otherDocumentIcon: AssetManager.ImageAsset
+    public static let payStubIcon: AssetManager.ImageAsset
+    public static let personalAccountIcon: AssetManager.ImageAsset
+    public static let personalInformationIcon: AssetManager.ImageAsset
+    public static let phone: AssetManager.ImageAsset
+    public static let phoneIcon: AssetManager.ImageAsset
+    public static let phoneIphone: AssetManager.ImageAsset
+    public static let pieChartId: AssetManager.ImageAsset
+    public static let pieChartClosing: AssetManager.ImageAsset
+    public static let pieChartClosingWhite: AssetManager.ImageAsset
+    public static let pieChartCredit: AssetManager.ImageAsset
+    public static let pieChartCreditWhite: AssetManager.ImageAsset
+    public static let pieChartEmployment: AssetManager.ImageAsset
+    public static let pieChartEmploymentWhite: AssetManager.ImageAsset
+    public static let pieChartHome: AssetManager.ImageAsset
+    public static let pieChartHomeWhite: AssetManager.ImageAsset
+    public static let pieChartIdWhite: AssetManager.ImageAsset
+    public static let pieChartPersonal: AssetManager.ImageAsset
+    public static let pieChartPersonalWhite: AssetManager.ImageAsset
+    public static let pieChartPurchase: AssetManager.ImageAsset
+    public static let pieChartPurchaseWhite: AssetManager.ImageAsset
+    public static let placeholder: AssetManager.ImageAsset
+    public static let plusBlue: AssetManager.ImageAsset
+    public static let preliminaryFormsIcon: AssetManager.ImageAsset
+    public static let privacyNotice: AssetManager.ImageAsset
+    public static let privacyPo: AssetManager.ImageAsset
+    public static let purchaseAck: AssetManager.ImageAsset
+    public static let purchaseAckIcon: AssetManager.ImageAsset
+    public static let ramseyWhiteIcon: AssetManager.ImageAsset
+    public static let ramseyAutoICON: AssetManager.ImageAsset
+    public static let scan: AssetManager.ImageAsset
+    public static let scanTrade: AssetManager.ImageAsset
+    public enum SectionHeader {
+      public enum DocsCheckbox {
+        public static let docSelect: AssetManager.ImageAsset
+        public static let docUnselect: AssetManager.ImageAsset
+      }
+      public static let addItem: AssetManager.ImageAsset
+      public static let doc: AssetManager.ImageAsset
+      public static let edit: AssetManager.ImageAsset
+      public static let groupUser: AssetManager.ImageAsset
+      public static let staff: AssetManager.ImageAsset
+      public static let user: AssetManager.ImageAsset
+      public static let vehicleCar: AssetManager.ImageAsset
+      public static let vehicleTrade: AssetManager.ImageAsset
+    }
+    public static let selctedIcon: AssetManager.ImageAsset
+    public static let selectIcon: AssetManager.ImageAsset
+    public static let signature: AssetManager.ImageAsset
+    public static let squareUncheck: AssetManager.ImageAsset
+    public static let staffIcon: AssetManager.ImageAsset
+    public static let startScan: AssetManager.ImageAsset
+    public static let testDriveIcon: AssetManager.ImageAsset
+    public static let textAppIconBlack: AssetManager.ImageAsset
+    public static let textAppIconWhite: AssetManager.ImageAsset
+    public static let tutorial: AssetManager.ImageAsset
+    public static let uncheckCircle: AssetManager.ImageAsset
+    public static let uncheckIcon: AssetManager.ImageAsset
+    public static let unselctedIcon: AssetManager.ImageAsset
+    public static let unselectedRadio: AssetManager.ImageAsset
+    public static let uploadDoc: AssetManager.ImageAsset
+    public static let userPlaceholder: AssetManager.ImageAsset
+    public static let utilityBillsIcon: AssetManager.ImageAsset
+    public static let vehicleCarIcon: AssetManager.ImageAsset
+    public static let viewDoc: AssetManager.ImageAsset
+    public static let viewDocumentIcon: AssetManager.ImageAsset
+    public static let whiteDocumentIcon: AssetManager.ImageAsset
+    public static let whiteFile: AssetManager.ImageAsset
+  }
+  public enum Colors {
+    public static let aliceBGBlue: AssetManager.ColorAsset
+    public static let appAliceBlue: AssetManager.ColorAsset
+    public static let appChambray: AssetManager.ColorAsset
+    public static let appDodgerBlue: AssetManager.ColorAsset
+    public static let appFireBrick: AssetManager.ColorAsset
+    public static let appGeraldine: AssetManager.ColorAsset
+    public static let appHawkesBlue: AssetManager.ColorAsset
+    public static let appShakespeare: AssetManager.ColorAsset
+    public static let gray6: AssetManager.ColorAsset
+    public static let primaryBlack: AssetManager.ColorAsset
+    public static let primaryGreen: AssetManager.ColorAsset
+    public static let primaryLightBlue: AssetManager.ColorAsset
+    public static let secondaryGreen: AssetManager.ColorAsset
+    public static let secondaryLabelGrayColor: AssetManager.ColorAsset
+    public static let teritaryGreen: AssetManager.ColorAsset
+    public static let primaryBGGray: AssetManager.ColorAsset
+    public static let primaryTextGray: AssetManager.ColorAsset
+    public static let secondaryBGGray: AssetManager.ColorAsset
+    public static let teritaryGray: AssetManager.ColorAsset
+  }
+}
+@_hasMissingDesignatedInitializers final public class ColorAsset {
+  final public var name: Swift.String {
+    get
+  }
+  public typealias Color = UIKit.UIColor
+  @available(iOS 11.0, tvOS 11.0, watchOS 4.0, macOS 10.13, *)
+  final public var color: AssetManager.ColorAsset.Color {
+    get
+  }
+  @available(iOS 11.0, tvOS 11.0, *)
+  final public func color(compatibleWith traitCollection: UIKit.UITraitCollection) -> AssetManager.ColorAsset.Color
+  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+  final public var swiftUIColor: SwiftUI.Color {
+    get
+  }
+  @objc deinit
+}
+extension UIKit.UIColor {
+  @available(iOS 11.0, tvOS 11.0, watchOS 4.0, macOS 10.13, *)
+  convenience public init?(asset: AssetManager.ColorAsset)
+}
+@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+extension SwiftUI.Color {
+  public init(asset: AssetManager.ColorAsset)
+}
+public struct ImageAsset {
+  public var name: Swift.String {
+    get
+  }
+  public typealias Image = UIKit.UIImage
+  @available(iOS 8.0, tvOS 9.0, watchOS 2.0, macOS 10.7, *)
+  public var image: AssetManager.ImageAsset.Image {
+    get
+  }
+  @available(iOS 8.0, tvOS 9.0, *)
+  public func image(compatibleWith traitCollection: UIKit.UITraitCollection) -> AssetManager.ImageAsset.Image
+  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+  public var swiftUIImage: SwiftUI.Image {
+    get
+  }
+}
+extension UIKit.UIImage {
+  @available(iOS 8.0, tvOS 9.0, watchOS 2.0, *)
+  @available(macOS, deprecated, message: "This initializer is unsafe on macOS, please use the ImageAsset.image property")
+  convenience public init?(asset: AssetManager.ImageAsset)
+}
+@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+extension SwiftUI.Image {
+  public init(asset: AssetManager.ImageAsset)
+  public init(asset: AssetManager.ImageAsset, label: SwiftUI.Text)
+  public init(decorative asset: AssetManager.ImageAsset)
+}

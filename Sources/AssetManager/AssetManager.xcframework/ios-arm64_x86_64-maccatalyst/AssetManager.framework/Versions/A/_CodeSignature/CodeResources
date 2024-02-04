@@ -6,15 +6,26 @@
 	<dict>
 		<key>Resources/Assets.car</key>
 		<data>
-		zWpLxbWLBmU9/neqLNg4OnewrxM=
+		5CH5PYR+I+BFe+h1/qqiocgHHzc=
 		</data>
 		<key>Resources/Info.plist</key>
 		<data>
 		ZJDp6Mhm4/8UsgFYboKkWWLirOE=
 		</data>
+		<key>Resources/swiftgen.yml</key>
+		<data>
+		jA3lgFId4unhDUTCbI17UDhRBOk=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Headers/AssetManager-Swift.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			tPRAVzfr4kywmSChBoHArZZez3s1J4ZLBGkCjhwlC54=
+			</data>
+		</dict>
 		<key>Headers/AssetManager.h</key>
 		<dict>
 			<key>hash2</key>
@@ -22,18 +33,88 @@
 			DB4Mki2TPklVqSKcRdrDJhlJyavH+jSdsjepgLEFbeY=
 			</data>
 		</dict>
+		<key>Modules/AssetManager.swiftmodule/arm64-apple-ios-macabi.abi.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			8OGmtteW8ErQi9Rmb2f0VbxlKOs0tUNo1KlmN45S3/c=
+			</data>
+		</dict>
+		<key>Modules/AssetManager.swiftmodule/arm64-apple-ios-macabi.private.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			sTUBMUM40gzQF9wzfyHx1jqBPZStkoXPh0Co68PvhVQ=
+			</data>
+		</dict>
+		<key>Modules/AssetManager.swiftmodule/arm64-apple-ios-macabi.swiftdoc</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Y9BOOLRVxwK8I1dTRT7iF5dHW5eXrixkBQXMUPf3R3M=
+			</data>
+		</dict>
+		<key>Modules/AssetManager.swiftmodule/arm64-apple-ios-macabi.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			sTUBMUM40gzQF9wzfyHx1jqBPZStkoXPh0Co68PvhVQ=
+			</data>
+		</dict>
+		<key>Modules/AssetManager.swiftmodule/arm64-apple-ios-macabi.swiftmodule</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			42CqiSMhdeRTvrjdINsetVK2uwlUOe0DZk4fOSYiERM=
+			</data>
+		</dict>
+		<key>Modules/AssetManager.swiftmodule/x86_64-apple-ios-macabi.abi.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			8OGmtteW8ErQi9Rmb2f0VbxlKOs0tUNo1KlmN45S3/c=
+			</data>
+		</dict>
+		<key>Modules/AssetManager.swiftmodule/x86_64-apple-ios-macabi.private.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			46C6Aqls2Y0Eq1DxFuo821Q6SfcPO0Qlb9+DWpU27P8=
+			</data>
+		</dict>
+		<key>Modules/AssetManager.swiftmodule/x86_64-apple-ios-macabi.swiftdoc</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			7wIcT8o0DjUBxekTbXz69FoaEeGWI9pZLJe2aDpjSRw=
+			</data>
+		</dict>
+		<key>Modules/AssetManager.swiftmodule/x86_64-apple-ios-macabi.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			46C6Aqls2Y0Eq1DxFuo821Q6SfcPO0Qlb9+DWpU27P8=
+			</data>
+		</dict>
+		<key>Modules/AssetManager.swiftmodule/x86_64-apple-ios-macabi.swiftmodule</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			o/L9lUUoCA+aJSAjV4cZ9SSUeGXzREvk1vlN1QMKjqs=
+			</data>
+		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JA0QI3cC25rRF73O7iimKf2IH00w6GD8XLJNMjKCdkU=
+			rwWMRz/badTM1D5+LeMeKifPAPsoqsEjWqoO1Z7lGoc=
 			</data>
 		</dict>
 		<key>Resources/Assets.car</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aL3iqth10HfdWhcxfKY8vZL6PPh2QohHXOcY5ioDEy8=
+			XBMVJVlH7Brg2b7TAJq5k7kJh6LOnNflUBfjkkzznhc=
 			</data>
 		</dict>
 		<key>Resources/Info.plist</key>
@@ -41,6 +122,13 @@
 			<key>hash2</key>
 			<data>
 			GXS9nJIEU2I+YMs5kVUqtR3C8JPKTvgzOrbhrdBRew4=
+			</data>
+		</dict>
+		<key>Resources/swiftgen.yml</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			V/AYfkbPmQU7P+HpL1JNuYVB7uECeb+282j2TRUodaM=
 			</data>
 		</dict>
 	</dict>
