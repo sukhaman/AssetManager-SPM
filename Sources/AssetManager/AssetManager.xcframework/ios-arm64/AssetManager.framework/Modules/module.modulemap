@@ -1,0 +1,6 @@
+framework module AssetManager {
+  umbrella header "AssetManager.h"
+  export *
+
+  module * { export * }
+}
